@@ -18,12 +18,9 @@ class Board extends Component {
             updateState.squares[i] = 'O'  : 
             updateState.squares[i] = null
       
-   
-       
-        
+   const { squares } = updateState
 
-
-    this.setState({ squares: updateState.squares })
+    this.setState({ squares })
   }
 
   render() {
