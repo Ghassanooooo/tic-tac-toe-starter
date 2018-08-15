@@ -12,11 +12,15 @@ class Board extends Component {
       squares: [...this.state.squares]
     }
 
-    updateState.squares[i] === null  ?
-      updateState.squares[i] ='X'   :
-      updateState.squares[i] === 'X' ?
-        updateState.squares[i] = 'O'  :
-        updateState.squares[i] = 'X'
+    updateState.squares[i] === null  ? 
+        updateState.squares[i] ='X'   :   
+        updateState.squares[i] === 'X' ?  
+            updateState.squares[i] = 'O'  : 
+            updateState.squares[i] = null
+      
+   
+       
+        
 
 
     this.setState({ squares: updateState.squares })
