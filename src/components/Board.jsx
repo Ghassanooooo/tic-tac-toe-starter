@@ -4,8 +4,15 @@ import Square from './Square';
 
 class Board extends Component {
   state = {
-    squares: [null, null, null, null, null, null, null, null, null]
+    squares: []
   }
+
+  componentWillMount(){
+    this.setState({squares: [
+      null, null, null, null, null, null, null, null, null
+    ]})
+  }
+
   renderSquare = (i) => {
     const updateState = {
       ...this.state,
