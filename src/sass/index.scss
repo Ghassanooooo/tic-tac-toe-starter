@@ -30,8 +30,22 @@ body {
   align-items: center;
 }
 
-.squareWinner {
+.squareWinnerX {
   background: red;
+  color: #FFF;
+  border: 1px solid #999;
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #2c3e50;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.squareWinnerO {
+  background:green;
   color: #FFF;
   border: 1px solid #999;
   font-size: 5vw;
