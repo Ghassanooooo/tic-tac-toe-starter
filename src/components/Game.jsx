@@ -184,7 +184,7 @@ class Game extends Component {
 
   render() {
 
-    let outPutGameOver = this.state.counter > 8 || (this.stateHandler() === 'Winner : X' || this.stateHandler() === 'Winner : O')? <p style={{textAlign:'center', color: 'red', fontSize: '20px'}} onClick={this.playAgine}> Game Over ! <strong>Play agine</strong></p> : null
+    let outPutGameOver = this.state.counter > 8 || (this.stateHandler() === 'Winner : X' || this.stateHandler() === 'Winner : O')? <p style={{textAlign:'center', color: 'red', fontSize: '20px', backgroundColor: 'pink'}} onClick={this.playAgine}> Game Over ! <strong>Play agine</strong></p> : null
     return (
       <article className="game container mt-5">
         <section className="row">
@@ -192,7 +192,7 @@ class Game extends Component {
             <Board renderSquare={this.renderSquare} squares={this.state.squares} xPrev={this.state.xPrev} stateHandler={this.stateHandler}/>
           </div>
           <div className="col-sm-4 game-info">
-            <p className="h2">your moves History !!</p>
+            <p className="h2" style={{color: 'blue'}}>your moves History !!</p>
             <ul className="nav nav-pills flex-column">
              {this.state.showHistory ? <MoveList moves={this.state.moves} moveHandler={this.moveHandler}/> : null}
             </ul>
