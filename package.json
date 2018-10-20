@@ -12,6 +12,8 @@
   },
   "homepage": "http://Ghassanooooo.github.io/myapp",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "node-sass-chokidar src/sass/ -o src/styles/",
     "watch-css": "npm run build-css && node-sass-chokidar src/sass/ -o src/styles/ --watch --recursive",
     "start-js": "react-scripts start",
