@@ -10,7 +10,7 @@
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
   },
-  "homepage": "http://Ghassanooooo.github.io/myapp",
+  "homepage": "http://Ghassanooooo.github.io/tic-tac-toe-starter",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
