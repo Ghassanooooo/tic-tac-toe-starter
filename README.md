@@ -4,7 +4,7 @@
 ![Screenshot](tic-tac-toe-starter.png)
 
 
-> A quick walkthrough of my tic-tac-toe-starter app built using React,Redux, sass
+> A quick walkthrough of my tic-tac-toe-starter app built using React, sass
 
 
 
