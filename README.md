@@ -1,7 +1,7 @@
 # tic-tac-toe-starter
 
 
-![Screenshot](burger-builder.png)
+![Screenshot](tic-tac-toe-starter.png)
 
 
 > A quick walkthrough of my tic-tac-toe-starter app built using React, sass
